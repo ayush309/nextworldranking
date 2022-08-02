@@ -1,0 +1,98 @@
+/* .countriestable{
+    display: flex;
+    justify-content: center;
+    
+} */
+
+.countrytable_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid rgb(29, 241, 5); */
+    border-radius: 10px;
+    padding: 50px;
+    /* overflow: hidden; */
+}
+
+.countrytable_inner .head{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-radius: 20px;
+    /* color: #000; */
+}
+
+.head button {
+    background-color: rgb(63, 63, 246);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 28px;
+    width: 25%;
+    padding: 20px;
+    border-bottom: 4px solid blue;
+    transition: 0.3s;
+    /* opacity: 0.6; */
+    /* transform: 0.1s; */
+}
+
+.head button:hover{
+   opacity: 1;
+   transition: 0.5s ease-out;
+   background-color: rgb(14, 14, 241);
+}
+
+.countrytable_inner .content {
+    width: 100%;
+    /* padding: 20px; */
+}
+.country_row{
+    background-color: rgb(255, 255, 255);
+    margin: 10px 0px;
+    display: flex;
+    padding: 0px 20px;
+    /* border-radius: 20px; */
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.country_flag {
+    display: flex;
+    align-items: center;
+}
+
+.country_row div {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.country_flag img {
+    display: flex;
+    height: 60px;
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* .countriestable .innertable .namecol h1 {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+    color: rgb(15, 78, 5);
+    background-color: rgb(188, 235, 17);
+    padding: 10px 30px ;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.countriestable .innertable .namecol p {
+    padding: 10px 30px;
+    background-color: rgb(187, 219, 148);
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    
+
+
+} */
+
+

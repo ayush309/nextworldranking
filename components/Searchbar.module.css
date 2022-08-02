@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* border: 2px solid #ccc; */
+
+}
+
+.container input {
+    background-color: aliceblue;
+    border: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    /* border-radius: 10px; */
+    padding: 18px 80px;
+}
+
+.container button {
+    /* background-color: rgb(75, 48, 248); */
+    background-color: rgb(63, 63, 246);
+
+    color: aliceblue;
+    border: none;
+    margin: 0px 40px;
+    padding: 18px 80px;
+    font-size: 25px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.container button:hover{
+    opacity: 1;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+    background-color: rgb(14, 14, 241);
+}
+
